@@ -81,3 +81,7 @@ body{
 .border-b {
   border-bottom: 1px solid #D0D4DC;
 }
+
+a {
+  transition-duration: .2s;
+}
