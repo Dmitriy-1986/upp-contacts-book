@@ -21,7 +21,6 @@ body{
     'menu  main main main main main'
     'footer footer footer footer footer footer';
   grid-gap: 10px;
-  height:100vh;
 }
 
 .item1 h2, h3 {
@@ -54,16 +53,14 @@ body{
 .item2 {
   background-color: #ffff;
   border: 1px solid #2196F3;
-  height: 100%;
-  /*min-height:90vh;*/
+  min-height: calc(100vh - 50px);
   margin-left: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .item3 {
-    height: 100%;
-    /*min-height:90vh;*/
+    min-height: calc(100vh - 50px);
     border: 1px solid #2196F3;
     margin-right: 10px;
 }
