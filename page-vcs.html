@@ -7,7 +7,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+   
+        ul.table {
+            list-style-type: none;
+            margin: 20px 0;
+            padding: 0;
+            width: 100%;
+            display: table;
+        }
 
+        @media screen and (max-width: 767.98px) {
+            ul.table {
+                margin-bottom: 0;
+            }
+        }
+
+        .row {
+            display: table-row;
+            background: rgb(220, 217, 253);
+        }
+
+        .row.header {
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+            background: #8faad0;
+        }
+
+        .cell {
+            padding: 10px 12px;
+            display: table-cell;
+            border-bottom: 1px solid #8faad0;
+        }
+
+        @media screen and (max-width: 767px) {
+
+            ul.table {
+                display: block;
+            }
+
+            .row {
+                padding: 10px 0 6px;
+                display: block;
+                border-bottom: 1px solid #8faad0;
+            }
+
+            .row.header {
+                padding: 0;
+                height: 20px;
+            }
+
+            .cell {
+                padding: 0px 20px;
+                display: block;
+                border-bottom: unset;
+                text-align: center;
+            }
+
+            .row.header .cell {
+                display: none;
+            }
+
+            .row .cell {
+                margin-bottom: 10px;
+            }
+
+            .row .cell:before {
+                margin-bottom: 4px;
+                content: attr(data-title);
+                font-size: 10px;
+                line-height: 1.2em;
+                font-weight: bold;
+                color: rgba(0, 0, 0, 0.4);
+                display: block;
+            }
+
+        }
+     </style>
 
 </head>
 
@@ -51,6 +128,43 @@
                 doloremque iste ex facilis eius repellendus? Dolor, iusto. Mollitia quae illum debitis omnis ipsa odio
                 et dolor.
             </p>
+<ul class="table">
+            <!-- Заголовок -->
+            <li class="row header">
+                <div class="cell">
+                    <input type="checkbox" checked>
+                </div>
+                <div class="cell">
+                    Фамилия и имя
+                </div>
+                <div class="cell">
+                    Телефон
+                </div>
+                <div class="cell">
+                    Дата рождения
+                </div>
+            </li>
+            <!-- Конец заголовка -->
+
+            <li class="row">
+                <div class="cell" data-title="полицай">
+                    <input type="checkbox">
+                </div>
+                <div class="cell" data-title="Фамилия и имя">
+                    <span title="Фамилия и имя">Довгаль Дмитрий</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380981180209 "> + 38 (098) 118 02 09</a>
+                </div>
+                <div class="cell" data-title="Дата рождения">
+                   <!--/* <a title="E-mail" href="mailto:dovgal.dima.86@gmail.com">dovgal.dima.86@gmail.com</a>*/-->
+                    <span title="Дата рождения">11.09.1986</span>
+                </div>
+            </li>
+         </ul>
+
+
+
         </div>
         <div class="item4 p-10">
            2021 Довгаль Д.
