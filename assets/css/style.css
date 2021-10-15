@@ -106,6 +106,12 @@ body{
     height: 50px;
 }
 
+@media (max-width: 649px) {
+    .item4 {
+      margin-top: 10px;
+    }
+}
+
 .m-tb-10 {
   margin: 10px 0 10px 0;
 }
