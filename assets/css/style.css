@@ -23,7 +23,7 @@ body{
   grid-gap: 10px;
 }
 
-@media (min-width: 649px) {
+@media (max-width: 649px) {
     .grid-container {
       grid-template-areas:
         'header header header header header header'
