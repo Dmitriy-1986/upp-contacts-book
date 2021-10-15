@@ -48,7 +48,6 @@ function findString (str) {
 /*
     Аккордеон
 */
-
 var acc = document.getElementsByClassName("accordion");
 var i;
 
