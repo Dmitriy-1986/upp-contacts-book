@@ -47,9 +47,9 @@ function findString (str) {
   }
  }
  else if (navigator.appName=="Opera") {
-  alert ("Opera browsers not supported, sorry...")
+  alert("Opera browsers not supported, sorry...")
   return;
  }
- if (!strFound) alert ("String '"+str+"' not found!")
+ if (!strFound) alert("String '"+str+"' not found!")
  return;
 }
