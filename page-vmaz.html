@@ -1,1 +1,293 @@
+<!DOCTYPE html>
+<html lang="ua">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+   
+        ul.table {
+            list-style-type: none;
+            margin: 20px 0;
+            padding: 0;
+            width: 100%;
+            display: table;
+        }
+
+        @media screen and (max-width: 767.98px) {
+            ul.table {
+                margin-bottom: 0;
+            }
+        }
+
+        .row {
+            display: table-row;
+            /*background: rgb(220, 217, 253);*/
+        }
+
+        .row.header {
+            font-size: 16px;
+            font-weight: 600;
+            /*color: #ffffff;*/
+            /*background: #8faad0;*/
+        }
+
+        .cell {
+            padding: 10px 12px;
+            display: table-cell;
+            border-bottom: 1px solid #8faad0;
+        }
+
+        @media screen and (max-width: 767px) {
+
+            ul.table {
+                display: block;
+            }
+
+            .row {
+                padding: 10px 0 6px;
+                display: block;
+                border-bottom: 1px solid #8faad0;
+            }
+
+            .row.header {
+                padding: 0;
+                height: 20px;
+            }
+
+            .cell {
+                padding: 0px 20px;
+                display: block;
+                border-bottom: unset;
+                text-align: center;
+            }
+
+            .row.header .cell {
+                display: none;
+            }
+
+            .row .cell {
+                margin-bottom: 10px;
+            }
+
+            .row .cell:before {
+                margin-bottom: 4px;
+                content: attr(data-title);
+                font-size: 10px;
+                line-height: 1.2em;
+                font-weight: bold;
+                /*color: rgba(0, 0, 0, 0.4);*/
+                display: block;
+            }
+
+        }
+     </style>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <h2>
+                Управління Патрульної Поліції в Запорізькій області
+            </h2>
+            <h3>
+                Телефонний Довідник
+            </h3>
+        </div>
+        <div class="item2">
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./index.html">Головна</a> 
+            </div>
+            <div class="pattern m-tb-10">
+               <a href="./page-vcs.html">Відділ Чергової Служби</a> 
+            </div>
+            <div class=" p-10 m-tb-10 border-b">
+                Інший Підрозділ
+            </div>
+            <div class=" p-10 m-tb-10 border-b">
+                Інший Підрозділ
+            </div>
+            <div class=" p-10 m-tb-10 border-b">
+                Інший Підрозділ
+            </div>
+        </div>
+        <div class="item3 p-10">
+            <h2>
+               Відділ Моніторингу та Аналітичного Забезпечення
+            </h2>
+            
+                
+        <ul class="table">
+            <!-- Заголовок -->
+            <li class="row header">  
+                <div class="cell">
+                    Прізвище та ім'я
+                </div>
+                <div class="cell">
+                    Телефон
+                </div>
+                <div class="cell">
+                    Посада
+                </div>
+            </li>
+            <!-- Конец заголовка -->
+            <li class="row">
+                
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Фурманов Артем</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380684507077"> + 38 (068) 450 70 77</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Заст. Нач. Відділу</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Бойко Олег</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380987433331"> + 38 (098) 743 33 31</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Ст. Інспектор</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Паленко Кристина</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380931127124"> + 38 (093) 112 71 24</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Ст. Інспектор</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Підсадний Артем</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380678673460"> + 38 (067) 867 34 60</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Ст. Інспектор</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Бєльчєва Наталія</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380964538490"> + 38 (096) 453 84 90</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Ст. Інспектор</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Яковенко Сергій</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380963782856"> + 38 (096) 378 28 56</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор - черг.</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Понятова Галина</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380666035977"> + 38 (066) 603 59 77</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор - черг.</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Бойченко Дмитро</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380665807744"> + 38 (066) 580 77 44</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор - черг.</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Бугаєвська Інна</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380676130287"> + 38 (067) 613 02 87</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор - черг.</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Кожевніков Микита</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380991647846"> + 38 (099) 164 78 46</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор - черг.</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Курносенко Віталій</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380956056312"> + 38 (095) 605 63 12</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор - черг.</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Макаренко Артем</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380985795643"> + 38 (098) 579 56 43</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор - черг.</span>
+                </div>
+            </li>
+         </ul>
+
+        </div>
+        <div class="item4 p-10">
+           2021 Довгаль Д.
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
