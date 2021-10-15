@@ -79,8 +79,8 @@ body{
     .item2 {
       background-color: #ffff;
       border: 1px solid #2196F3;
-      min-height: 100%;
-      margin-left: 10px;
+      height: 100%;
+      margin: 10px;
       padding-left: 10px;
       padding-right: 10px;
     }
@@ -90,6 +90,15 @@ body{
     min-height: calc(100vh - 50px);
     border: 1px solid #2196F3;
     margin-right: 10px;
+}
+
+@media (max-width: 649px) {
+    .item3 {
+      height: 100%;
+      margin: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }
 
 .item4 {
