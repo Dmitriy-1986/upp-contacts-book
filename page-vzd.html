@@ -1,1 +1,239 @@
+<!DOCTYPE html>
+<html lang="ua">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Телефонний довідник</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+   
+        ul.table {
+            list-style-type: none;
+            margin: 20px 0;
+            padding: 0;
+            width: 100%;
+            display: table;
+        }
+
+        @media screen and (max-width: 767.98px) {
+            ul.table {
+                margin-bottom: 0;
+            }
+        }
+
+        .row {
+            display: table-row;
+            /*background: rgb(220, 217, 253);*/
+        }
+
+        .row.header {
+            font-size: 16px;
+            font-weight: 600;
+            /*color: #ffffff;*/
+            /*background: #8faad0;*/
+        }
+
+        .cell {
+            padding: 10px 12px;
+            display: table-cell;
+            border-bottom: 1px solid #8faad0;
+        }
+
+        @media screen and (max-width: 767px) {
+
+            ul.table {
+                display: block;
+            }
+
+            .row {
+                padding: 10px 0 6px;
+                display: block;
+                border-bottom: 1px solid #8faad0;
+            }
+
+            .row.header {
+                padding: 0;
+                height: 20px;
+            }
+
+            .cell {
+                padding: 0px 20px;
+                display: block;
+                border-bottom: unset;
+                text-align: center;
+            }
+
+            .row.header .cell {
+                display: none;
+            }
+
+            .row .cell {
+                margin-bottom: 10px;
+            }
+
+            .row .cell:before {
+                margin-bottom: 4px;
+                content: attr(data-title);
+                font-size: 10px;
+                line-height: 1.2em;
+                font-weight: bold;
+                /*color: rgba(0, 0, 0, 0.4);*/
+                display: block;
+            }
+
+        }
+     </style>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <h2>
+                Управління Патрульної Поліції в Запорізькій області
+            </h2>
+            <h3>
+                Телефонний Довідник
+            </h3>
+        </div>
+        <div class="item2">
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./index.html">Головна</a> 
+            </div>
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./page-vmaz.html">Відділ Моніторингу</a> 
+            </div>   
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./page-ap.html">Відділ Адмін.Практики</a> 
+            </div>
+            <div class="pattern m-tb-10">
+               <a href="./page-vromdtp.html">Відділ РОМ ДТП</a> 
+            </div>
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./page-vk.html">Відділ Кадрового Забезпечення</a> 
+            </div>           
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./page-vcs.html">Відділ Чергової Служби</a> 
+            </div>
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./page-gun.html">Сектор Озброєння</a> 
+            </div>
+        </div>
+        <div class="item3 p-10">
+            <h2>
+               Відділ Забезпечення Діяльності
+            </h2>        
+                
+        <ul class="table">
+            <!-- Заголовок -->
+            <li class="row header">  
+                <div class="cell">
+                    Прізвище та ім'я
+                </div>
+                <div class="cell">
+                    Телефон
+                </div>
+                <div class="cell">
+                    Посада
+                </div>
+            </li>
+            <!-- Конец заголовка -->
+            <li class="row">
+                
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Кузьменко Ольга</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380966671224"> + 38 (096) 667 12 24</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Нач. Відділу</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Захарова Оксана</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380663213999"> + 38 (066) 321 39 99</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Сірий Володимир</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380973004240"> + 38 (097) 300 42 40</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Комірник</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Мелещенко Володимир</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380684463660"> + 38 (068) 446 36 60</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Електромонтер</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">оржеховська Катерина</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380981207344"> + 38 (098) 120 73 44</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Прибиральник</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Гладкова Валентина</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380963164592"> + 38 (096) 316 45 92</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Прибиральник</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Коржова Наталія</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380962899761"> + 38 (096) 289 97 61</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Прибиральник</span>
+                </div>
+            </li>
+
+         </ul>
+
+        </div>
+        <div class="item4 p-10">
+           2021 Довгаль Д.
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
