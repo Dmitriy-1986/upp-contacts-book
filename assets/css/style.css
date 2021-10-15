@@ -22,7 +22,17 @@ body{
     'footer footer footer footer footer footer';
   grid-gap: 10px;
 }
-
+ @media (max-width: 649px) {
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header header header'
+        'menu main menu main menu main'
+        'main main main main main main'
+        'footer footer footer footer footer footer';
+      grid-gap: 10px;
+    }
+} 
 .item1 h2, h3 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
