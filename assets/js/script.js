@@ -40,16 +40,14 @@ function findString (str) {
    strFound=TRange.findText(str);
    if (strFound) TRange.select();
   }
+     
   if (TRange==null || strFound==0) {
    TRange=self.document.body.createTextRange();
    strFound=TRange.findText(str);
    if (strFound) TRange.select();
   }
  }
- else if (navigator.appName=="Opera") {
-  alert("Браузери Opera не підтримуються, вибачте...")
-  return;
- }
+ 
  if (!strFound) alert("Текст '"+str+"' не знайдений!")
  return;
 }
