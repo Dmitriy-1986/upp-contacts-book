@@ -2,17 +2,11 @@
     Пароль на странице
 */
 const password = prompt('Введіть пароль');
-
-if (password == "111") {
-    
+if (password == "111") {  
          window.onload;
- 
-} else {
-  
-      window.location.href = 'https://google.com';
-  
+} else {  
+      window.location.href = 'https://google.com';  
 }
-
 /*
     Поиск по странице
 */
@@ -51,8 +45,6 @@ function findString (str) {
  if (!strFound) alert("Текст '"+str+"' не знайдений!")
  return;
 }
-
-
 /*
     Аккордеон
 */
