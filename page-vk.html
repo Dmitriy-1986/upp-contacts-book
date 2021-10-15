@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="ua">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Телефонний довідник</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+  <style>
+   
+        ul.table {
+            list-style-type: none;
+            margin: 20px 0;
+            padding: 0;
+            width: 100%;
+            display: table;
+        }
+
+        @media screen and (max-width: 767.98px) {
+            ul.table {
+                margin-bottom: 0;
+            }
+        }
+
+        .row {
+            display: table-row;
+            /*background: rgb(220, 217, 253);*/
+        }
+
+        .row.header {
+            font-size: 16px;
+            font-weight: 600;
+            /*color: #ffffff;*/
+            /*background: #8faad0;*/
+        }
+
+        .cell {
+            padding: 10px 12px;
+            display: table-cell;
+            border-bottom: 1px solid #8faad0;
+        }
+
+        @media screen and (max-width: 767px) {
+
+            ul.table {
+                display: block;
+            }
+
+            .row {
+                padding: 10px 0 6px;
+                display: block;
+                border-bottom: 1px solid #8faad0;
+            }
+
+            .row.header {
+                padding: 0;
+                height: 20px;
+            }
+
+            .cell {
+                padding: 0px 20px;
+                display: block;
+                border-bottom: unset;
+                text-align: center;
+            }
+
+            .row.header .cell {
+                display: none;
+            }
+
+            .row .cell {
+                margin-bottom: 10px;
+            }
+
+            .row .cell:before {
+                margin-bottom: 4px;
+                content: attr(data-title);
+                font-size: 10px;
+                line-height: 1.2em;
+                font-weight: bold;
+                /*color: rgba(0, 0, 0, 0.4);*/
+                display: block;
+            }
+
+        }
+     </style>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="item1">
+            <h2>
+                Управління Патрульної Поліції в Запорізькій області
+            </h2>
+            <h3>
+                Телефонний Довідник
+            </h3>
+        </div>
+        <div class="item2">
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./index.html">Головна</a> 
+            </div>
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./page-vmaz.html">Відділ Моніторингу</a> 
+            </div>
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./page-ap.html">Відділ Адмін.Практики</a> 
+            </div>
+            <div class=" p-10 m-tb-10 border-b">
+               <a href="./page-vromdtp.html">Відділ РОМ ДТП</a> 
+            </div>          
+            <div class="pattern m-tb-10">
+               <a href="./page-vcs.html">Відділ Чергової Служби</a> 
+            </div>
+           
+        </div>
+        <div class="item3 p-10">
+            <h2>
+               Відділ Кадрового Забезпечення
+            </h2>
+            
+                
+        <ul class="table">
+            <!-- Заголовок -->
+            <li class="row header">  
+                <div class="cell">
+                    Прізвище та ім'я
+                </div>
+                <div class="cell">
+                    Телефон
+                </div>
+                <div class="cell">
+                    Посада
+                </div>
+            </li>
+            <!-- Конец заголовка -->
+            <li class="row">
+                
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Гречко Тетяна</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380672889269"> + 38 (067) 288 92 69</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Ст. Інспектор</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Третяк Андрій</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380933101797"> + 38 (093) 310 17 97</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Ст. Інспектор</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Дембіцький Сергій</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380997582841"> + 38 (099) 758 28 41</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Ст. Інспектор</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Каряка Юлія</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380663818460"> + 38 (066) 381 84 60</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Ст. Інспектор</span>
+                </div>
+            </li>
+
+            <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Борт Анна</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380663818460"> + 38 (066) 381 84 60</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор - черг.</span>
+                </div>
+            </li>
+
+           <li class="row">            
+                <div class="cell" data-title="Прізвище та ім'я">
+                    <span title="Прізвище та ім'я">Іванова Світлана</span>
+                </div>
+                <div class="cell" data-title="Телефон">
+                    <a title="Phone" href="tel:+380975405807"> + 38 (097) 540 58 07</a>
+                </div>
+                <div class="cell" data-title="Посада">
+                    <span title="Посада">Інспектор - черг.</span>
+                </div>
+            </li>
+
+         </ul>
+
+        </div>
+        <div class="item4 p-10">
+           2021 Довгаль Д.
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
