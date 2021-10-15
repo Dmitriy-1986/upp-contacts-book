@@ -68,7 +68,7 @@ body{
 
 .item2 {
   background-color: #ffff;
-  border: 1px solid #2196F3;
+  border: 1px dotted #2196F3;
   min-height: calc(100vh - 50px);
   margin-left: 10px;
   padding-left: 10px;
@@ -78,7 +78,7 @@ body{
 @media (max-width: 649px) {
     .item2 {
       background-color: #ffff;
-      border: 1px solid #2196F3;
+      border: 1px dotted #2196F3;
       min-height: 100%;
       margin: 10px;
       padding-left: 10px;
@@ -88,7 +88,7 @@ body{
 
 .item3 {
     min-height: calc(100vh - 50px);
-    border: 1px solid #2196F3;
+    border: 1px dotted #2196F3;
     margin-right: 10px;
 }
 
@@ -102,7 +102,7 @@ body{
 }
 
 .item4 {
-    border-top: 1px solid #2196F3;
+    border-top: 1px dotted #2196F3;
     height: 50px;
 }
 
@@ -121,7 +121,7 @@ body{
 }
 
 .border-b {
-  border-bottom: 1px solid #D0D4DC;
+  border-bottom: 1px dotted #D0D4DC;
 }
 
 a {
