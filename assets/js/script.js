@@ -50,6 +50,6 @@ function findString (str) {
   alert("Браузери Opera не підтримуються, вибачте...")
   return;
  }
- if (!strFound) alert("Строка '"+str+"' не знайдена!")
+ if (!strFound) alert("Текст '"+str+"' не знайдений!")
  return;
 }
