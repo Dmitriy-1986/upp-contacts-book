@@ -234,7 +234,7 @@ ul.table {
 .form-control {
     display: block;
     width: 100%;
-    padding: .375rem .75rem;
+    padding: 12px 20px 12px 40px;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -259,4 +259,7 @@ ul.table {
 
 input[type=text] {
     background-image: url(https://upp-zp.pp.ua/assets/images/search-img.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 40px;
 }
