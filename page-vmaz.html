@@ -72,12 +72,9 @@
                Відділ Моніторингу та Аналітичного Забезпечення
             </h2>
          
-            <form action="javascript:void();" onsubmit="if(this.t1.value!='')parent.findString(this.t1.value);return(false);">
-                <input type="text" id="t1" name="t1" value="" class="form-control" placeholder="Пошук на сторінці...">
-                <input type="submit" name="b1" value="Пошук" class="btn">
-            </form>   
+            <input type="text" id="search" name="search" data-list=".list" value="" class="form-control" placeholder="Пошук на сторінці..." > 
                 
-        <ul class="table">
+        <ul class="table list">
             <!-- Заголовок -->
             <li class="row header">  
                 <div class="cell">
@@ -232,6 +229,15 @@
         </div>
     </div>
 
+    <script src="./assets/libs/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Hideseek -->
+    <script src="./assets/libs/jquery.hideseek.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#search').hideseek({highlight: true});
+        });
+    </script>
+    <!-- //Hideseek -->    
 
 </body>
 
