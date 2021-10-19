@@ -305,7 +305,10 @@ input[type=text] {
     background-size: 40px;
 }
 
-//Menu
+/*
+   Menu
+*/
+#burger-menu { display: none; }
 
 @media screen and (max-width: 767px) {
         #burger-menu {
@@ -317,6 +320,7 @@ input[type=text] {
           position: relative;
           z-index:2;
         }
+    
         #burger-menu span,
         #burger-menu span:before,
         #burger-menu span:after {
@@ -327,20 +331,24 @@ input[type=text] {
           position: absolute;
           transition: 0.3s ease-in-out;
         }
+    
         #burger-menu span:before,
         #burger-menu span:after {
           content: "";
         }
+    
         #burger-menu span {
           right: 0px;
           top: 13px;
           width: 27px;
         }
+    
         #burger-menu span:before {
           left: 0px;
           top: -10px;
           width: 16px;
         }
+    
         #burger-menu span:after {
           left: 0px;
           top: 10px;
@@ -352,11 +360,13 @@ input[type=text] {
           top: 13px;
           width: 27px;
         }
+    
         #burger-menu.close span:before {
           top: 0px;
           transform: rotate(90deg);
           width: 27px;
         }
+    
         #burger-menu.close span:after {
           top: 0px;
           left:0;
@@ -377,7 +387,6 @@ input[type=text] {
           text-align:center;
           padding-top:20px;
           transition: all 0.3s ease-in-out;
-
         }
 
         #menu.overlay{
@@ -390,6 +399,7 @@ input[type=text] {
         #menu li{
           list-style:none;
         }
+    
         #menu a{
           color:#fff;
           display:block;
