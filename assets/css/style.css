@@ -310,9 +310,7 @@ input[type=text] {
 /*
    Menu
 */
-#burger-menu { display: none; }
 
-@media screen and (max-width: 767px) {
         #burger-menu {
           cursor: pointer;
           height: 27px;
@@ -409,4 +407,4 @@ input[type=text] {
           margin-bottom:30px;
           text-decoration:none;
         }
-}
+
