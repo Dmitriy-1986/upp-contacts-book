@@ -312,6 +312,7 @@ input[type=text] {
 
 @media screen and (max-width: 767px) {
         #burger-menu {
+          display: flex;
           cursor: pointer;
           height: 27px;
           width: 27px;
