@@ -45,7 +45,7 @@ body {
             'menu menu menu menu menu menu'
             'main main main main main main'
             'footer footer footer footer footer footer';
-            grid-template-rows: 100px 1fr 1fr 50px;
+            grid-template-rows: 100px auto 1fr 50px;
     }
 }
 
@@ -302,6 +302,7 @@ input[type=text] {
        line-height: .1em;
        border: .1em solid #ddd;
        padding: 0 .4em .4em;
+       margin-top: 10px;
     }
 
     .hamburger hr {
