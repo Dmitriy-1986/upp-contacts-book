@@ -317,8 +317,8 @@ input[type=text] {
     
     #menu {display: none;}
     
-    #burger-menu {display: block; color:red;}
-    #burger-menu:hover #menu {display: block;}
+    #burger-menu {display: block; color:red; transition: all 0.3s ease-in-out;}
+    #burger-menu:hover #menu {display: block; transition: all 0.3s ease-in-out;}
     
 }
        
