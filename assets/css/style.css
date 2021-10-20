@@ -313,11 +313,14 @@ input[type=text] {
 
 #burger-menu {display: none;}
 
+.burger-menu-open {transition: all 0.3s ease-in-out;}
+
 @media screen and (max-width: 767px) {
     
     #menu {display: none;}
     
     #burger-menu {display: block; color:red; transition: all 0.3s ease-in-out;}
+    
     .burger-menu-open:hover #menu {display: block; transition: all 0.3s ease-in-out;}
     
 }
