@@ -311,17 +311,34 @@ input[type=text] {
    Menu
 */
 
-#burger-menu {display: none;}
-
-.burger-menu-open {transition: all 0.3s ease-in-out;}
+.burger-shower {
+  display: none;
+}
 
 @media screen and (max-width: 649px) {
+        .burger-shower:checked ~ .burger-menu {
+          display: block;
+        }
 
-    #menu {display: none;}
-    
-    #burger-menu {display: flex; justify-content: flex-end; margin-top: 20px; color: #ced4da; transition: all 0.3s ease-in-out;}
-    
-    .burger-menu-open:hover #menu {display: block; transition: all 0.3s ease-in-out;}
-    
+        .hamburger {
+          display:block;
+          width: 3.4em;
+          height: 2.4em;
+          line-height: .1em;
+          border: .1em solid #ddd;
+          padding: 0 .4em .4em;
+        }
+
+        .hamburger hr {
+          color: #ddd;
+          height: .1em;
+          border: 0;
+          background: #ddd;
+          /* border: none; */
+        }
+
+        .burger-menu {
+           display:none;
+        }
 }
        
