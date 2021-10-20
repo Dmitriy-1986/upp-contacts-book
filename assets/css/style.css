@@ -319,7 +319,7 @@ input[type=text] {
     
     #menu {display: none;}
     
-    #burger-menu {display: block; color:red; transition: all 0.3s ease-in-out;}
+    #burger-menu {display: block; color: #ced4da; transition: all 0.3s ease-in-out;}
     
     .burger-menu-open:hover #menu {display: block; transition: all 0.3s ease-in-out;}
     
