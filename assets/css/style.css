@@ -317,9 +317,15 @@ input[type=text] {
 
 @media screen and (max-width: 649px) {
     
+    .item2 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
     #menu {display: none;}
     
-    #burger-menu {display: flex; align-items: center; justify-content: flex-end; color: #ced4da; transition: all 0.3s ease-in-out;}
+    #burger-menu {display: block;  color: #ced4da; transition: all 0.3s ease-in-out;}
     
     .burger-menu-open:hover #menu {display: block; transition: all 0.3s ease-in-out;}
     
