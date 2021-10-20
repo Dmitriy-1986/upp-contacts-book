@@ -295,14 +295,14 @@ input[type=text] {
        width: 3.4em;
        height: 2.4em;
        line-height: .1em;
-       border: .1em solid #ddd;
+       border: .1em solid #ced4da;
        padding: 0 .4em .4em;
        margin-top: 10px;
        float: right;
     }
 
     .hamburger hr {
-       color: #ddd;
+       color: #ced4da;
        height: .1em;
        border: 0;
        background: #ddd;
