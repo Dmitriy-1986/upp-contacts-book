@@ -17,9 +17,6 @@ body {
 .item2 {
     grid-area: menu;
 }
-.my-burger-menu {
-    grid-area: burgerMenu;
-}
 
 .item3 {
     grid-area: main;
@@ -45,11 +42,10 @@ body {
     .grid-container {
             grid-template-areas:
             'header header header header header header'
-            'burgerMenu burgerMenu burgerMenu burgerMenu burgerMenu burgerMenu'   
             'menu menu menu menu menu menu'
             'main main main main main main'
             'footer footer footer footer footer footer';
-            grid-template-rows: 100px 300px 1fr 1fr 50px;
+            grid-template-rows: 100px 1fr 1fr 50px;
     }
 }
 
@@ -284,9 +280,6 @@ input[type=text] {
 /*
    Menu
 */
-.my-burger-menu {
-      display: none;
-}
 
 .burger-shower {
   display: none;
@@ -297,11 +290,6 @@ input[type=text] {
 }
 
 @media screen and (max-width: 649px) {
-    .my-burger-menu {
-       background-color: #ffff;
-       border: 1px dotted #2196F3;
-       display: block;
-    }
     
     .burger-shower:checked ~ .burger-menu {
        display: block;
