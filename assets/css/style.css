@@ -287,6 +287,7 @@ input[type=text] {
     
     .burger-shower:checked ~ .burger-menu {
        display: block;
+        margin-top: 60px;
     }
 
     .hamburger {
