@@ -38,7 +38,7 @@ body {
     grid-template-columns: 300px 1fr;
 }
 
-@media (max-width: 649px) {
+@media (max-width: 670px) {
     .grid-container {
             grid-template-areas:
             'header header header header header header'
@@ -65,7 +65,7 @@ h3 {
     font-size: 16px;
 }
 
-@media (max-width: 649px) {
+@media (max-width: 670px) {
     .pattern {
         -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 0%, 100% 100%, 0% 100%);
                 clip-path: polygon(0% 0%, 90% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -79,12 +79,6 @@ h3 {
     transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 649px) {
-    .item1 {
-        height: 100px;
-    }
-}
-
 .item2 {
     background-color: #ffff;
     border: 1px dotted #2196F3;
@@ -94,7 +88,7 @@ h3 {
     padding-right: 10px;
 }
 
-@media (max-width: 649px) {
+@media (max-width: 670px) {
     .item2 {
         background-color: #ffff;
         border: 1px dotted #2196F3;
@@ -112,7 +106,7 @@ h3 {
     transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 649px) {
+@media (max-width: 670px) {
     .item3 {
         min-height: 100%;
         margin: 10px;
@@ -125,7 +119,7 @@ h3 {
     border-top: 1px dotted #2196F3;
 }
 
-@media (max-width: 649px) {
+@media (max-width: 670px) {
     .item4 {
         margin-top: 10px;
     }
@@ -289,7 +283,7 @@ input[type=text] {
   display: none;
 }
 
-@media screen and (max-width: 649px) {
+@media screen and (max-width: 670px) {
     
     .burger-shower:checked ~ .burger-menu {
        display: block;
