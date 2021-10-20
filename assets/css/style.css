@@ -311,9 +311,15 @@ input[type=text] {
 /*
    Menu
 */
+
 .burger-shower {
   display: none;
 }
+
+.hamburger {
+  display: none;
+}
+
 @media screen and (max-width: 649px) {
     .burger-shower:checked ~ .burger-menu {
        display: block;
