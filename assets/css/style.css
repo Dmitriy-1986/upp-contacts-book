@@ -303,6 +303,7 @@ input[type=text] {
        border: .1em solid #ddd;
        padding: 0 .4em .4em;
        margin-top: 10px;
+       float: right;
     }
 
     .hamburger hr {
