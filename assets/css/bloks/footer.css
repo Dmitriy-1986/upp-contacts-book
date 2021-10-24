@@ -1,0 +1,9 @@
+.item4 {
+    border-top: 1px dotted #2196F3;
+}
+
+@media (max-width: 670px) {
+    .item4 {
+        margin-top: 10px;
+    }
+}
