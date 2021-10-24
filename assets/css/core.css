@@ -49,3 +49,21 @@ body {
         grid-template-rows: 100px auto 1fr 50px;
     }
 }
+
+.m-tb-10 {
+    margin: 10px 0 10px 0;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.border-b {
+    border-bottom: 1px solid #D0D4DC;
+}
+
+a {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
