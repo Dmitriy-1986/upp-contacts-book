@@ -1,6 +1,7 @@
 @import url('./core.css');
 @import url('./bloks/header.css');
 @import url('./bloks/menu.css');
+@import url('./bloks/burgerMenu.css');
 @import url('./bloks/main.css');
 @import url('./bloks/searchInput.css');
 @import url('./bloks/tableContacts.css');
