@@ -3,11 +3,7 @@
 @import url('./bloks/searchInput.css');
 
 
-.item1 h2, h3 {
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    margin: 5px 0 5px 0;
-}
+
 
 .pattern {
     background-color: #D0D4DC;
@@ -25,12 +21,6 @@
     }
 }
 
-.item1 {
-    background-color: #2196F3;
-    text-align: center;
-    padding: 0 10px 0 10px;
-    transition: all 0.3s ease-in-out;
-}
 
 .item2 {
     background-color: #ffff;
@@ -78,23 +68,7 @@
     }
 }
 
-.m-tb-10 {
-    margin: 10px 0 10px 0;
-}
 
-.p-10 {
-    padding: 10px;
-}
-
-.border-b {
-    border-bottom: 1px solid #D0D4DC;
-}
-
-a {
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
-}
 
 
 /* Таблица с контактами */
