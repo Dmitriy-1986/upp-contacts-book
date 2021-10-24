@@ -11,7 +11,7 @@
 
     .burger-shower:checked~.burger-menu {
         display: block;
-        margin-top: 72px;
+        margin-top: 77px;
         transition: all 0.3s ease-in-out;
     }
 
@@ -22,7 +22,7 @@
         line-height: .1em;
         border: 1px solid transparent;
         padding: .25rem .75rem;
-        margin-top: 10px;
+        margin-top: 15px;
         float: right;
         color: rgba(0, 0, 0, .55);
         border-color: rgba(0, 0, 0, .1);
