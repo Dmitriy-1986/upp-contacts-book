@@ -1,0 +1,35 @@
+.item2 {
+    background-color: #ffff;
+    border: 1px dotted #2196F3;
+    min-height: calc(100vh - 50px);
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 670px) {
+    .item2 {
+        background-color: #ffff;
+        border: 1px dotted #2196F3;
+        min-height: 90%;
+        margin: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.pattern {
+    background-color: #D0D4DC;
+    -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+    color: #fefefe;
+    padding: 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 670px) {
+    .pattern {
+        -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 90% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
