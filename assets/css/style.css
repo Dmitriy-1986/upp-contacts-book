@@ -316,7 +316,7 @@ input[type=text] {
        color: #ced4da;
        height: .1em;
        border: 0;
-       background: #ddd;
+       background: rgba(0,0,0,.55);
     }
 
     .burger-menu {
