@@ -288,6 +288,7 @@ input[type=text] {
     .burger-shower:checked ~ .burger-menu {
        display: block;
         margin-top: 72px;
+        transition: all 0.3s ease-in-out;
     }
 
     .hamburger {
@@ -304,6 +305,7 @@ input[type=text] {
        border-radius: .25rem;
        font-size: 1.25rem;
        line-height: 1;
+       transition: all 0.3s ease-in-out;
     }
     
     .hamburger:focus {
@@ -312,6 +314,7 @@ input[type=text] {
     
     .hamburger:hover {
         box-shadow: 0 0 0 0.25rem;
+        transition: all 0.3s ease-in-out;
     }
     
     .hamburger svg {
