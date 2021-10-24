@@ -9,6 +9,7 @@
 
 @media (max-width: 670px) {
     .item2 {
+        display: inline-block;
         background-color: #ffff;
         border: 1px dotted #2196F3;
         min-height: 90%;
