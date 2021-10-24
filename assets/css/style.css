@@ -293,7 +293,7 @@ input[type=text] {
     .hamburger {
        display:block;
        width: 3.4em;
-       height: 2.4em;
+       /*height: 2.4em;*/
        line-height: .1em;
        border: .1em solid transparent;
        padding: .25rem .75rem;
@@ -305,7 +305,9 @@ input[type=text] {
        font-size: 1.25rem;
        line-height: 1;
     }
-
+    
+    .hamburger svg {vertical-align: middle;}
+ 
     .hamburger:focus {
         text-decoration: none;
         outline: 0;
