@@ -295,7 +295,7 @@ input[type=text] {
        width: 3.4em;
        /*height: 2.4em;*/
        line-height: .1em;
-       border: .1em solid transparent;
+       border: 1px solid transparent;
        padding: .25rem .75rem;
        margin-top: 10px;
        float: right;
