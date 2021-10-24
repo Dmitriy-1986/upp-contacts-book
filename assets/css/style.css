@@ -310,6 +310,10 @@ input[type=text] {
         box-shadow: 0 0 0 0.25rem;
     }
     
+    .hamburger:hover {
+        box-shadow: 0 0 0 0.25rem;
+    }
+    
     .hamburger svg {
         vertical-align: middle;
     }
