@@ -2,9 +2,9 @@ https://dmitriy-1986.github.io/tel-connect/
 
 Пример доступа к атрибутам value, name
 https://itchief.ru/javascript/attributes-and-properties
-<plaintext>
-<input name="name" type="text" value="Bob">
-</plaintext>
+
+<pre>&lt;input name="name" type="text" value="Bob"&gt;</pre>
+
 <script>
   var name = document.querySelector('input[name="name"]'); // получим элемент
   
