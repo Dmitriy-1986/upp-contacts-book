@@ -5,7 +5,7 @@ https://itchief.ru/javascript/attributes-and-properties
 
 <pre>&lt;input name="name" type="text" value="Bob"&gt;</pre>
 
-<script>
+<pre>&lt;script&gt;
   var name = document.querySelector('input[name="name"]'); // получим элемент
   
   // получим значение атрибута value у элемента
@@ -17,4 +17,4 @@ https://itchief.ru/javascript/attributes-and-properties
   // обновим значение атрибута value, установим ему новое значение
 name.setAttribute('value', 'Tom'); // "Tom"
   
-</script>
+&lt;/script&gt;</pre>
