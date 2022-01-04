@@ -6,15 +6,17 @@ https://itchief.ru/javascript/attributes-and-properties
 <pre>&lt;input name="name" type="text" value="Bob"&gt;</pre>
 
 <pre>&lt;script&gt;
+  const chief = "Михайловська С.В.";
+  
   var name = document.querySelector('input[name="name"]'); // получим элемент
   
   // получим значение атрибута value у элемента
   name.getAttribute('value'); // "Bob"
-  
+ 
   // получим значение DOM-свойства value
   name.value; // "Bob"
   
   // обновим значение атрибута value, установим ему новое значение
-  name.setAttribute('value', 'Tom'); // "Tom"
+  name.setAttribute('value', chief); // "Tom"
   
 &lt;/script&gt;</pre>
