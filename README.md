@@ -15,6 +15,6 @@ https://itchief.ru/javascript/attributes-and-properties
   name.value; // "Bob"
   
   // обновим значение атрибута value, установим ему новое значение
-name.setAttribute('value', 'Tom'); // "Tom"
+  name.setAttribute('value', 'Tom'); // "Tom"
   
 &lt;/script&gt;</pre>
