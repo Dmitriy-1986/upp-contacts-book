@@ -17,6 +17,6 @@ https://itchief.ru/javascript/attributes-and-properties
   name.value; 
   
   // обновим значение атрибута value, установим ему новое значение
-  name.setAttribute('value', chief); // "Tom"
+  name.setAttribute('value', chief); // "Михайловська С.В."
   
 &lt;/script&gt;</pre>
