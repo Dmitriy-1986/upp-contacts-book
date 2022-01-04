@@ -11,10 +11,10 @@ https://itchief.ru/javascript/attributes-and-properties
   var name = document.querySelector('input[name="name"]'); // получим элемент
   
   // получим значение атрибута value у элемента
-  name.getAttribute('value'); // "Bob"
+  name.getAttribute('value'); 
  
   // получим значение DOM-свойства value
-  name.value; // "Bob"
+  name.value; 
   
   // обновим значение атрибута value, установим ему новое значение
   name.setAttribute('value', chief); // "Tom"
