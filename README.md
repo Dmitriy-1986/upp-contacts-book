@@ -20,7 +20,10 @@ https://itchief.ru/javascript/attributes-and-properties
   name.setAttribute('value', chief); // "Михайловська С.В."
   
 &lt;/script&gt;</pre>
-
+<p>
+К сведенью: 1 секунда = 1000 миллисекунд.
+Значит, 15 000 миллисекунд = 15 секунд.
+</p>
 <pre>&lt;script&gt
 setTimeout(function(){
     location.reload();
