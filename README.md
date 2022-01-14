@@ -20,3 +20,9 @@ https://itchief.ru/javascript/attributes-and-properties
   name.setAttribute('value', chief); // "Михайловська С.В."
   
 &lt;/script&gt;</pre>
+
+<pre>&lt;script&gt
+setTimeout(function(){
+    location.reload();
+}, 15000);
+&lt;/script&gt;</pre>
