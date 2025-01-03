@@ -1,4 +1,4 @@
-[https://dmitriy-1986.github.io/tel-connect/](https://dmitriy-1986.github.io/upp-contacts-book/)
+[upp-contacts-book](https://dmitriy-1986.github.io/upp-contacts-book/)
 
 Пример доступа к атрибутам value, name
 https://itchief.ru/javascript/attributes-and-properties
